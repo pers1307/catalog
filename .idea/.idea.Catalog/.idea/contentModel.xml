@@ -53,6 +53,7 @@
         <e p="respond.js" t="Include" />
         <e p="respond.min.js" t="Include" />
       </e>
+      <e p="source" t="Include" />
       <e p="Views" t="Include">
         <e p="_ViewStart.cshtml" t="Include" />
         <e p="Home" t="Include">
