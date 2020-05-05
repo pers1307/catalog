@@ -116,12 +116,21 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Areas\Catalog\CatalogAreaRegistration.cs" />
     <Compile Include="Areas\Catalog\Controllers\HomeController.cs" />
+    <Compile Include="Areas\CMS\CMSAreaRegistration.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Areas\Catalog\Static\Css\bootstrap.css" />
+    <Content Include="Areas\Catalog\Static\Css\megamenu.css" />
+    <Content Include="Areas\Catalog\Static\Css\style.css" />
+    <Content Include="Areas\Catalog\Static\Js\easing.js" />
+    <Content Include="Areas\Catalog\Static\Js\jquery.min.js" />
+    <Content Include="Areas\Catalog\Static\Js\megamenu.js" />
+    <Content Include="Areas\Catalog\Static\Js\move-top.js" />
+    <Content Include="Areas\Catalog\Static\Js\simpleCart.min.js" />
     <Content Include="Areas\Catalog\Views\Home\Index.cshtml" />
     <Content Include="Areas\Catalog\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Catalog\Views\_ViewStart.cshtml" />
@@ -134,6 +143,7 @@
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Catalog\Views\web.config" />
+    <Content Include="Areas\CMS\Views\web.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
     <Content Include="Scripts\jquery-1.10.2.min.js" />
@@ -158,9 +168,10 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
-    <Folder Include="Areas\Catalog\Controllers\" />
     <Folder Include="Areas\Catalog\Data\" />
-    <Folder Include="Areas\Catalog\Views\Shared\" />
+    <Folder Include="Areas\CMS\Controllers\" />
+    <Folder Include="Areas\CMS\Data\" />
+    <Folder Include="Areas\CMS\Views\Shared\" />
     <Folder Include="Models\" />
     <Folder Include="Source\" />
   </ItemGroup>
