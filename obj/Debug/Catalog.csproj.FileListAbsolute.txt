@@ -53,3 +53,13 @@ D:\projects\Catalog\Catalog\obj\Debug\Catalog.csprojAssemblyReference.cache
 D:\projects\Catalog\Catalog\obj\Debug\Catalog.csproj.CopyComplete
 D:\projects\Catalog\Catalog\obj\Debug\Catalog.dll
 D:\projects\Catalog\Catalog\obj\Debug\Catalog.pdb
+D:\projects\Catalog\Catalog\bin\roslyn\csi.exe.config
+D:\projects\Catalog\Catalog\bin\roslyn\Microsoft.Managed.Core.targets
+D:\projects\Catalog\Catalog\bin\roslyn\System.Buffers.dll
+D:\projects\Catalog\Catalog\bin\roslyn\System.Memory.dll
+D:\projects\Catalog\Catalog\bin\roslyn\System.Numerics.Vectors.dll
+D:\projects\Catalog\Catalog\bin\roslyn\System.Runtime.CompilerServices.Unsafe.dll
+D:\projects\Catalog\Catalog\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\projects\Catalog\Catalog\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\projects\Catalog\Catalog\bin\EntityFramework.dll
+D:\projects\Catalog\Catalog\bin\EntityFramework.xml

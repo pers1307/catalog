@@ -4,6 +4,7 @@
     <e p="C:\Users\pers1307\.Rider2018.3\system\extResources" t="IncludeRecursive" />
     <e p="C:\Users\pers1307\.Rider2018.3\system\resharper-host\local\Transient\ReSharperHost\v183\SolutionCaches\_Catalog.647544395.00" t="ExcludeRecursive" />
     <e p="D:\projects\Catalog\Catalog" t="IncludeRecursive">
+      <e p="App.config" t="Include" />
       <e p="App_Data" t="Include" />
       <e p="App_Start" t="Include">
         <e p="BundleConfig.cs" t="Include" />
@@ -14,9 +15,10 @@
         <e p="Catalog" t="Include">
           <e p="CatalogAreaRegistration.cs" t="Include" />
           <e p="Controllers" t="Include">
+            <e p="ArticleController.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
+            <e p="ProductController.cs" t="Include" />
           </e>
-          <e p="Data" t="Include" />
           <e p="static" t="Include">
             <e p="Css" t="Include">
               <e p="bootstrap.css" t="Include" />
@@ -38,6 +40,8 @@
             </e>
             <e p="Shared" t="Include">
               <e p="_Layout.cshtml" t="Include" />
+              <e p="Footer.cshtml" t="Include" />
+              <e p="Header.cshtml" t="Include" />
             </e>
             <e p="Web.config" t="Include" />
           </e>
@@ -55,18 +59,15 @@
       <e p="bin" t="ExcludeRecursive" />
       <e p="Catalog.csproj" t="IncludeRecursive" />
       <e p="Catalog.sln" t="IncludeFlat" />
-      <e p="Content" t="Include">
-        <e p="bootstrap.css" t="Include" />
-        <e p="bootstrap.min.css" t="Include" />
-        <e p="Site.css" t="Include" />
+      <e p="Concrete" t="Include">
+        <e p="EFDbContext.cs" t="Include" />
+      </e>
+      <e p="Entities" t="Include">
+        <e p="Article.cs" t="Include" />
+        <e p="Product.cs" t="Include" />
+        <e p="User.cs" t="Include" />
       </e>
       <e p="favicon.ico" t="Include" />
-      <e p="fonts" t="Include">
-        <e p="glyphicons-halflings-regular.eot" t="Include" />
-        <e p="glyphicons-halflings-regular.svg" t="Include" />
-        <e p="glyphicons-halflings-regular.ttf" t="Include" />
-        <e p="glyphicons-halflings-regular.woff" t="Include" />
-      </e>
       <e p="Global.asax" t="Include" />
       <e p="Global.asax.cs" t="Include" />
       <e p="Models" t="Include" />

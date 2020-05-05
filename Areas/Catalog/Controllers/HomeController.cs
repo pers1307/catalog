@@ -15,7 +15,7 @@ namespace Catalog.Areas.Catalog.Controllers
              */
             
             /**
-             * 
+             * Server=localhost\SQLEXPRESS;Database=master;Trusted_Connection=True;
              */
             
             
