@@ -127,7 +127,9 @@
     <Compile Include="Areas\Catalog\Controllers\HomeController.cs" />
     <Compile Include="Areas\Catalog\Controllers\ProductController.cs" />
     <Compile Include="Areas\CMS\CMSAreaRegistration.cs" />
+    <Compile Include="Areas\CMS\Controllers\ArticleController.cs" />
     <Compile Include="Areas\CMS\Controllers\HomeController.cs" />
+    <Compile Include="Areas\CMS\Controllers\ProductController.cs" />
     <Compile Include="Concrete\EfDbContext.cs" />
     <Compile Include="Entities\Article.cs" />
     <Compile Include="Entities\Product.cs" />
@@ -151,7 +153,10 @@
     <Content Include="Areas\Catalog\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Catalog\Views\Shared\Footer.cshtml" />
     <Content Include="Areas\Catalog\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\CMS\Views\Article\Edit.cshtml" />
+    <Content Include="Areas\CMS\Views\Article\Index.cshtml" />
     <Content Include="Areas\CMS\Views\Home\Index.cshtml" />
+    <Content Include="Areas\CMS\Views\Product\Index.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Aside.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Footer.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Header.cshtml" />

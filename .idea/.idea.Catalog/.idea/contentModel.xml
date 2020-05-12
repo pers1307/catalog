@@ -49,7 +49,9 @@
         <e p="CMS" t="Include">
           <e p="CMSAreaRegistration.cs" t="Include" />
           <e p="Controllers" t="Include">
+            <e p="ArticleController.cs" t="Include" />
             <e p="HomeController.cs" t="Include" />
+            <e p="ProductController.cs" t="Include" />
           </e>
           <e p="Data" t="Include" />
           <e p="static" t="Include">
@@ -62,7 +64,14 @@
           </e>
           <e p="Views" t="Include">
             <e p="_ViewStart.cshtml" t="Include" />
+            <e p="Article" t="Include">
+              <e p="Edit.cshtml" t="Include" />
+              <e p="Index.cshtml" t="Include" />
+            </e>
             <e p="Home" t="Include">
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="Product" t="Include">
               <e p="Index.cshtml" t="Include" />
             </e>
             <e p="Shared" t="Include">
