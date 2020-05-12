@@ -48,10 +48,29 @@
         </e>
         <e p="CMS" t="Include">
           <e p="CMSAreaRegistration.cs" t="Include" />
-          <e p="Controllers" t="Include" />
+          <e p="Controllers" t="Include">
+            <e p="HomeController.cs" t="Include" />
+          </e>
           <e p="Data" t="Include" />
+          <e p="static" t="Include">
+            <e p="Css" t="Include">
+              <e p="Vendor" t="Include" />
+            </e>
+            <e p="Js" t="Include">
+              <e p="Vendor" t="Include" />
+            </e>
+          </e>
           <e p="Views" t="Include">
-            <e p="Shared" t="Include" />
+            <e p="_ViewStart.cshtml" t="Include" />
+            <e p="Home" t="Include">
+              <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="Shared" t="Include">
+              <e p="_Layout.cshtml" t="Include" />
+              <e p="Aside.cshtml" t="Include" />
+              <e p="Footer.cshtml" t="Include" />
+              <e p="Header.cshtml" t="Include" />
+            </e>
             <e p="Web.config" t="Include" />
           </e>
         </e>
@@ -94,6 +113,7 @@
         <e p="respond.min.js" t="Include" />
       </e>
       <e p="source" t="Include" />
+      <e p="SourceAdmin" t="Include" />
       <e p="Views" t="Include">
         <e p="Shared" t="Include">
           <e p="Error.cshtml" t="Include" />

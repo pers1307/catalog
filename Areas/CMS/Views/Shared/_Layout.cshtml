@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+    <!--[if IE 9 ]><html class="ie9"><![endif]-->
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+        <meta name="format-detection" content="telephone=no">
+        <meta charset="UTF-8">
+
+        <meta name="description" content="SuperFlat Responsive Admin Template">
+        <meta name="keywords" content="SuperFlat Admin, Admin, Template, Bootstrap">
+
+        <title>SuperFlat Responsive Admin Template</title>
+        
+        @Styles.Render("~/Areas/CMS/Static/Css/Vendor/animate.css/animate.min.css")
+        @Styles.Render("~/Areas/CMS/Static/Css/Vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css")
+        @Styles.Render("~/Areas/CMS/Static/Css/Vendor/fullcalendar/dist/fullcalendar.min.css")
+        @Styles.Render("~/Areas/CMS/Static/Css/Vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css")
+        @Styles.Render("~/Areas/CMS/Static/Css/app.min.css")
+    </head>
+
+    <body>
+        @Html.Partial("Header")
+        @Html.Partial("Aside")
+    
+        <section id="content">
+            @RenderBody()
+        </section>
+        
+        
+        @Html.Partial("Footer")
+        
+        <!-- Older IE Warning Message -->
+        <!--[if lt IE 9]>
+            <div class="ie-warning">
+                <h1 class="c-white">Warning!!</h1>
+                <p>You are using an outdated version of Internet Explorer, please upgrade <br/>to any of the following web browsers to access this website.</p>
+                <div class="iew-container">
+                    <ul class="iew-download">
+                        <li>
+                            <a href="http://www.google.com/chrome/">
+                                <img src="img/browsers/chrome.png" alt="">
+                                <div>Chrome</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.mozilla.org/en-US/firefox/new/">
+                                <img src="img/browsers/firefox.png" alt="">
+                                <div>Firefox</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://www.opera.com">
+                                <img src="img/browsers/opera.png" alt="">
+                                <div>Opera</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.apple.com/safari/">
+                                <img src="img/browsers/safari.png" alt="">
+                                <div>Safari</div>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="http://windows.microsoft.com/en-us/internet-explorer/download-ie">
+                                <img src="img/browsers/ie.png" alt="">
+                                <div>IE (New)</div>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <p>Sorry for the inconvenience!</p>
+            </div>   
+        <![endif]-->
+        
+        <!-- Javascript Libraries -->
+    
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/jquery/dist/jquery.min.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/bootstrap/dist/js/bootstrap.min.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/flot/jquery.flot.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/flot-orderBars/js/jquery.flot.orderBars.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/flot.curvedlines/curvedLines.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/flot-orderBars/js/jquery.flot.orderBars.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/sparklines/jquery.sparkline.min.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/bootstrap-growl/bootstrap-growl.min.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/moment/min/moment.min.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/fullcalendar/dist/fullcalendar.min.js")
+        
+        <!-- Charts - Please read the read-me.txt inside the js folder-->
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/flot-charts/curved-line-chart.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/flot-charts/bar-chart.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/charts.js")
+        
+        <!-- Placeholder for IE9 -->
+        <!--[if IE 9 ]>
+            @Styles.Render("~/Areas/CMS/Static/Js/Vendor/jquery-placeholder/jquery.placeholder.min.js")
+        <![endif]-->
+        
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/functions.js")
+        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/demo.js")
+    </body>
+</html>
