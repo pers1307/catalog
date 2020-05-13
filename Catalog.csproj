@@ -167,23 +167,9 @@
     <Content Include="Areas\CMS\Views\_ViewStart.cshtml" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="Scripts\bootstrap.js" />
-    <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Areas\Catalog\Views\web.config" />
     <Content Include="Areas\CMS\Views\web.config" />
     <None Include="App.config" />
-    <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\jquery-1.10.2.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.js" />
-    <Content Include="Scripts\jquery-1.10.2.min.map" />
-    <None Include="Scripts\jquery.validate-vsdoc.js" />
-    <Content Include="Scripts\jquery.validate.js" />
-    <Content Include="Scripts\jquery.validate.min.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.js" />
-    <Content Include="Scripts\jquery.validate.unobtrusive.min.js" />
-    <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Scripts\respond.js" />
-    <Content Include="Scripts\respond.min.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -191,17 +177,14 @@
     <Content Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
-    <Content Include="Views\Web.config" />
-    <Content Include="Views\Shared\Error.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Areas\CMS\Controllers\" />
-    <Folder Include="Areas\CMS\Data\" />
     <Folder Include="Areas\CMS\Static\Css\Vendor" />
     <Folder Include="Areas\CMS\Static\Js\Vendor" />
     <Folder Include="Areas\CMS\Views\Shared\" />
-    <Folder Include="Models\" />
+    <Folder Include="Repositories" />
     <Folder Include="SourceAdmin" />
     <Folder Include="Source\" />
   </ItemGroup>
