@@ -127,9 +127,9 @@
     <Compile Include="Areas\Catalog\Controllers\HomeController.cs" />
     <Compile Include="Areas\Catalog\Controllers\ProductController.cs" />
     <Compile Include="Areas\CMS\CMSAreaRegistration.cs" />
-    <Compile Include="Areas\CMS\Controllers\ArticleController.cs" />
-    <Compile Include="Areas\CMS\Controllers\HomeController.cs" />
-    <Compile Include="Areas\CMS\Controllers\ProductController.cs" />
+    <Compile Include="Areas\CMS\Controllers\ArticleCmsController.cs" />
+    <Compile Include="Areas\CMS\Controllers\HomeCmsController.cs" />
+    <Compile Include="Areas\CMS\Controllers\ProductCmsController.cs" />
     <Compile Include="Concrete\EfDbContext.cs" />
     <Compile Include="Entities\Article.cs" />
     <Compile Include="Entities\Product.cs" />
@@ -140,6 +140,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include=".gitignore" />
     <Content Include="Areas\Catalog\Static\Css\bootstrap.css" />
     <Content Include="Areas\Catalog\Static\Css\megamenu.css" />
     <Content Include="Areas\Catalog\Static\Css\style.css" />
@@ -153,10 +154,12 @@
     <Content Include="Areas\Catalog\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Catalog\Views\Shared\Footer.cshtml" />
     <Content Include="Areas\Catalog\Views\_ViewStart.cshtml" />
-    <Content Include="Areas\CMS\Views\Article\Edit.cshtml" />
-    <Content Include="Areas\CMS\Views\Article\Index.cshtml" />
-    <Content Include="Areas\CMS\Views\Home\Index.cshtml" />
-    <Content Include="Areas\CMS\Views\Product\Index.cshtml" />
+    <Content Include="Areas\CMS\Static\Image\logo.png" />
+    <Content Include="Areas\CMS\Static\Image\profile-pic.jpg" />
+    <Content Include="Areas\CMS\Views\ArticleCms\Edit.cshtml" />
+    <Content Include="Areas\CMS\Views\ArticleCms\Index.cshtml" />
+    <Content Include="Areas\CMS\Views\HomeCms\Index.cshtml" />
+    <Content Include="Areas\CMS\Views\ProductCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Aside.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Footer.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Header.cshtml" />

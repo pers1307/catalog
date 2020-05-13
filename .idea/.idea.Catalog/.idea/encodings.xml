@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding" addBOMForNewFiles="with NO BOM">
-    <file url="file://$PROJECT_DIR$/Areas/CMS/Views/Article/Edit.cshtml" charset="windows-1251" />
-    <file url="file://$PROJECT_DIR$/Areas/CMS/Views/Article/Index.cshtml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Edit.cshtml" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Areas/CMS/Views/Shared/Aside.cshtml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Areas/CMS/Views/Shared/Header.cshtml" charset="windows-1251" />
     <file url="file://$PROJECT_DIR$/Areas/Catalog/Views/Shared/Header.cshtml" charset="windows-1251" />

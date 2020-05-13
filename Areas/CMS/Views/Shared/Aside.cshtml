@@ -2,23 +2,20 @@
     <ul class="side-menu">
         <li class="sm-sub sms-profile">
             <a class="clearfix" href="">
-                <img src="img/profile-pic.jpg" alt="">
+                <img src="/Areas/CMS/Static/Image/profile-pic.jpg" alt="">
 
                 <span class="f-11">
-                    <span class="d-block">Mallinda Hollaway</span>
+                    <span class="d-block">Перескоков Юрий</span>
                 </span>
             </a>
-            
             <ul>
-                <li><a href="">View Profile</a></li>
-                <li><a href="">Privacy Settings</a></li>
-                <li><a href="">Settings</a></li>
-                <li><a href="">Logout</a></li>
+                <li><a href="/">Настройки профиля</a></li>
+                <li><a href="/">Выйти</a></li>
             </ul>
         </li>
         
         <li class="active">
-            <a href="">
+            <a href="@Url.Action("Index", "HomeCms")">
                 <i class="zmdi zmdi-home"></i>
                 <span>Главная</span>
             </a>
@@ -31,10 +28,10 @@
             </a>
             <ul>
                 <li>
-                    <a href="">Категории</a>
+                    @Html.ActionLink("Категории", "Index", "ArticleCms")
                 </li>
                 <li>
-                    <a href="">Товары</a>
+                    @Html.ActionLink("Товары", "Index", "ProductCms")
                 </li>
             </ul>
         </li>
