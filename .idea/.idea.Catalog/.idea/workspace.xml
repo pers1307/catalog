@@ -4,106 +4,74 @@
     <list default="true" id="c71580ad-5ff0-4e25-9471-4729dee2fa99" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Catalog/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Catalog/v16/.suo" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Catalog/v16/.suo" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Catalog/v16/Server/sqlite3/storage.ide-shm" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Catalog/v16/Server/sqlite3/storage.ide-shm" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.vs/Catalog/v16/Server/sqlite3/storage.ide-wal" beforeDir="false" afterPath="$PROJECT_DIR$/.vs/Catalog/v16/Server/sqlite3/storage.ide-wal" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/App.config" beforeDir="false" afterPath="$PROJECT_DIR$/App.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml" beforeDir="false" afterPath="$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Catalog.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/Catalog.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/bootstrap.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/bootstrap.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-1.10.2.intellisense.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-1.10.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-1.10.2.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery-1.10.2.min.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate-vsdoc.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.unobtrusive.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/jquery.validate.unobtrusive.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/modernizr-2.6.2.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/respond.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Scripts/respond.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/404.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/checkout.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/contact.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/css/bootstrap.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/css/etalage.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/css/megamenu.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/css/owl.carousel.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/css/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/decor.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/health.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ad1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ba.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ba11.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ba12.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ba2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ba21.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ba22.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/cart-c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/cart.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/close_1.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/de.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/de1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/de2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/de3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/de4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/de5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/fa8.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/he.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/he1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/he2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/he3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/he4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/he5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/img-sprite.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/logo.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/mes.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ni.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ni1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph5.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph6.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/ph7.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/pi.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/pi11.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/pi12.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/pi13.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/pic1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/pic2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/s1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/s2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/s3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/s4.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/si.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/si1.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/si2.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/si3.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/up.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/images/zoom.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/easing.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/jquery.etalage.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/jquery.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/jquery.wmuSlider.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/megamenu.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/move-top.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/owl.carousel.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/js/simpleCart.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/mobile.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/products.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Source/single.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Shared/Error.cshtml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Views/Web.config" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Concrete/EfDbContext.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Infrastructure/Concrete/EFDbContext.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Web.config" beforeDir="false" afterPath="$PROJECT_DIR$/Web.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages.config" beforeDir="false" afterPath="$PROJECT_DIR$/packages.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/EntityFramework.6.4.0.nupkg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/build/EntityFramework.DefaultItems.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/build/EntityFramework.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/build/EntityFramework.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/build/Microsoft.Data.Entity.Build.Tasks.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/build/netcoreapp3.0/EntityFramework.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/build/netcoreapp3.0/EntityFramework.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/buildTransitive/EntityFramework.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/buildTransitive/EntityFramework.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/buildTransitive/netcoreapp3.0/EntityFramework.props" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/buildTransitive/netcoreapp3.0/EntityFramework.targets" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/content/net40/App.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/content/net40/App.config.transform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/content/net40/Web.config.install.xdt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/content/net40/Web.config.transform" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net40/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net40/EntityFramework.SqlServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net40/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net40/EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net45/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net45/EntityFramework.SqlServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net45/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/net45/EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/netstandard2.1/EntityFramework.SqlServer.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/netstandard2.1/EntityFramework.SqlServer.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/netstandard2.1/EntityFramework.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/lib/netstandard2.1/EntityFramework.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/EntityFramework6.PS2.psd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/EntityFramework6.PS2.psm1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/EntityFramework6.psd1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/EntityFramework6.psm1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/about_EntityFramework6.help.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/init.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/install.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net40/any/ef6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net40/any/ef6.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net40/win-x86/ef6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net40/win-x86/ef6.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net45/any/ef6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net45/any/ef6.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net45/win-x86/ef6.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/net45/win-x86/ef6.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/netcoreapp3.0/any/ef6.dll" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/netcoreapp3.0/any/ef6.pdb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/EntityFramework.6.4.0/tools/netcoreapp3.0/any/ef6.runtimeconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/.signature.p7s" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Content/bootstrap-theme.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Content/bootstrap-theme.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Content/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Content/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Scripts/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/Scripts/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.eot" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/Content/fonts/glyphicons-halflings-regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/packages/bootstrap.3.0.0/bootstrap.3.0.0.nupkg" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -152,119 +120,136 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Areas/CMS/CMSAreaRegistration.cs">
+        <entry file="file://$PROJECT_DIR$/Infrastructure/Concrete/EFDbContext.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="33" column="14" selection-start-line="33" selection-start-column="14" selection-end-line="33" selection-end-column="14" />
+            <state relative-caret-position="16">
+              <caret line="2" selection-start-line="2" selection-end-line="2" />
               <folding>
-                <marker date="1589388145683" expanded="true" signature="50:1276" ph="{...}" />
-                <marker date="1589388145683" expanded="true" signature="109:1274" ph="{...}" />
-                <marker date="1589388145683" expanded="true" signature="156:251" ph="{...}" />
-                <marker date="1589388145683" expanded="true" signature="183:241" ph="{...}" />
-                <marker date="1589388145683" expanded="true" signature="328:1268" ph="{...}" />
-                <marker date="1589388145683" expanded="true" signature="457:556" ph="{...}" />
-                <marker date="1589388145683" expanded="true" signature="700:802" ph="{...}" />
-                <marker date="1589388145683" expanded="true" signature="946:1048" ph="{...}" />
+                <marker date="1589474924178" expanded="false" signature="6:49" ph="..." />
+                <marker date="1589474924178" expanded="true" signature="92:302" ph="{...}" />
+                <marker date="1589474924178" expanded="true" signature="135:300" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/Infrastructure/NinjectDependencyResolver.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="32">
-              <caret line="2" column="3" selection-start-line="2" selection-start-column="3" selection-end-line="2" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Areas/CMS/Controllers/HomeCmsController.cs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="24" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="24" />
+            <state relative-caret-position="288">
+              <caret line="48" selection-start-line="48" selection-end-line="48" />
               <folding>
-                <marker date="1589387665699" expanded="true" signature="62:217" ph="{...}" />
-                <marker date="1589387665699" expanded="true" signature="112:215" ph="{...}" />
-                <marker date="1589387665699" expanded="true" signature="162:209" ph="{...}" />
+                <marker date="1589477295450" expanded="true" signature="6:112" ph="..." />
+                <marker date="1589477295450" expanded="true" signature="146:1305" ph="{...}" />
+                <marker date="1589477295450" expanded="true" signature="213:1303" ph="{...}" />
+                <marker date="1589477295450" expanded="true" signature="318:399" ph="{...}" />
+                <marker date="1589477295450" expanded="true" signature="451:518" ph="{...}" />
+                <marker date="1589477295450" expanded="true" signature="584:651" ph="{...}" />
+                <marker date="1589477295450" expanded="true" signature="687:1297" ph="{...}" />
+                <marker date="1589477295450" expanded="true" signature="816:1285" ph="/* EmailSettings emailSettings = new EmailSettings() ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml">
+        <entry file="file://$PROJECT_DIR$/App_Start/NinjectWebCommon.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="128">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="221">
+              <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
               <folding>
-                <marker date="1589302096554" expanded="true" signature="0:3856" ph="&lt;div.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="25:221" ph="&lt;div.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="58:128" ph="&lt;div.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="235:3847" ph="&lt;table.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="320:703" ph="&lt;thead.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="342:684" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="714:3832" ph="&lt;tbody.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="736:879" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="894:1037" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="1052:1195" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="1210:1353" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="1368:1506" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="1521:1659" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="1674:1812" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="1827:1965" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="1980:2119" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="2134:2273" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="2288:2427" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="2442:2581" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="2596:2734" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="2749:2887" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="2902:3040" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="3055:3193" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="3208:3348" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="3363:3503" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="3518:3658" ph="&lt;tr.../&gt;" />
-                <marker date="1589302096554" expanded="true" signature="3673:3813" ph="&lt;tr.../&gt;" />
+                <marker date="1589477291582" expanded="true" signature="6:207" ph="..." />
+                <marker date="1589477291582" expanded="true" signature="411:1487" ph="{...}" />
+                <marker date="1589477291582" expanded="true" signature="454:1485" ph="{...}" />
+                <marker date="1589477291582" expanded="true" signature="580:809" ph="{...}" />
+                <marker date="1589477291582" expanded="true" signature="848:905" ph="{...}" />
+                <marker date="1589477291582" expanded="true" signature="956:1270" ph="{...}" />
+                <marker date="1589477291582" expanded="true" signature="1331:1479" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Areas/CMS/Views/ProductCms/Index.cshtml">
+        <entry file="file://$PROJECT_DIR$/Web.Debug.config">
           <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repositories/ArticleRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="176">
+              <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+              <folding>
+                <marker date="1589475307767" expanded="true" signature="6:33" ph="..." />
+                <marker date="1589475307767" expanded="true" signature="128:369" ph="{...}" />
+                <marker date="1589475307767" expanded="true" signature="186:367" ph="{...}" />
+                <marker date="1589475307767" expanded="true" signature="295:361" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Repositories/IArticleRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="48">
+              <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+              <folding>
+                <marker date="1589475307721" expanded="false" signature="6:57" ph="..." />
+                <marker date="1589475307721" expanded="true" signature="89:192" ph="{...}" />
+                <marker date="1589475307721" expanded="true" signature="131:190" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Entities/Article.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="96">
+              <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+              <folding>
+                <marker date="1588689487287" expanded="true" signature="26:232" ph="{...}" />
+                <marker date="1588689487287" expanded="true" signature="53:230" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="64">
-              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+            <state relative-caret-position="224">
+              <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
               <folding>
-                <marker date="1589387208044" expanded="true" signature="62:303" ph="{...}" />
-                <marker date="1589387208044" expanded="true" signature="115:301" ph="{...}" />
-                <marker date="1589387208044" expanded="true" signature="157:204" ph="{...}" />
-                <marker date="1589387208044" expanded="true" signature="248:295" ph="{...}" />
+                <marker date="1589475986768" expanded="true" signature="6:68" ph="..." />
+                <marker date="1589475986768" expanded="true" signature="109:564" ph="{...}" />
+                <marker date="1589475986768" expanded="true" signature="162:562" ph="{...}" />
+                <marker date="1589475986768" expanded="true" signature="290:354" ph="{...}" />
+                <marker date="1589475986768" expanded="true" signature="399:465" ph="{...}" />
+                <marker date="1589475986768" expanded="true" signature="509:556" ph="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Edit.cshtml">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Areas/CMS/Controllers/ProductCmsController.cs">
+        <entry file="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="48">
-              <caret line="4" column="37" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="37" />
+            <state relative-caret-position="352">
+              <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
               <folding>
-                <marker date="1589387665660" expanded="true" signature="62:227" ph="{...}" />
-                <marker date="1589387665660" expanded="true" signature="115:225" ph="{...}" />
-                <marker date="1589387665660" expanded="true" signature="172:219" ph="{...}" />
+                <marker date="1589472695495" expanded="true" signature="46:817" ph="&lt;div.../&gt;" />
+                <marker date="1589472695495" expanded="true" signature="71:267" ph="&lt;div.../&gt;" />
+                <marker date="1589472695495" expanded="true" signature="104:174" ph="&lt;div.../&gt;" />
+                <marker date="1589472695495" expanded="true" signature="281:808" ph="&lt;table.../&gt;" />
+                <marker date="1589472695495" expanded="true" signature="366:557" ph="&lt;thead.../&gt;" />
+                <marker date="1589472695495" expanded="true" signature="388:538" ph="&lt;tr.../&gt;" />
+                <marker date="1589472695495" expanded="true" signature="568:793" ph="&lt;tbody.../&gt;" />
+                <marker date="1589472695495" expanded="true" signature="588:774" ph="@..." />
+                <marker date="1589472695495" expanded="true" signature="619:774" ph="{...}" />
+                <marker date="1589472695495" expanded="true" signature="650:760" ph="&lt;tr.../&gt;" />
               </folding>
             </state>
           </provider>
@@ -277,6 +262,7 @@
       <find>Layout = &quot;~/Views/Shared/_Layout.cshtml&quot;;</find>
       <find>connection</find>
       <find>&lt;span class=&quot;d-block&quot;&gt;Mallinda Hollaway&lt;/span&gt;</find>
+      <find>bundles.Add(new ScriptBundle(&quot;~/bundles/jquery&quot;).Include(</find>
     </findStrings>
     <dirStrings>
       <dir>D:\projects\Catalog\Catalog</dir>
@@ -297,37 +283,36 @@
     <setting file="file://$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/CMS/Views/Shared/Aside.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/CMS/Controllers/ProductCmsController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web.Debug.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/NinjectDependencyResolver.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Global.asax" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/0a/a6464c47/IDependencyResolver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Web.config" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repositories/IArticleRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Catalog/Views/_ViewStart.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/CMS/Views/ProductCms/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Catalog/Views/Home/Index.cshtml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/NinjectWebCommon.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Catalog/Views/Shared/_Layout.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Catalog/CatalogAreaRegistration.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Concrete/EfDbContext.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Infrastructure/Concrete/EFDbContext.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Article.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/Product.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Entities/User.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/App_Start/RouteConfig.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/App_Start/BundleConfig.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Catalog/Views/Shared/Footer.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Catalog/Views/Shared/Header.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Edit.cshtml" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/CMS/CMSAreaRegistration.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Repositories/ArticleRepository.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/Catalog/Controllers/HomeController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Areas/CMS/Controllers/HomeCmsController.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Entities/User.cs" />
-        <option value="$PROJECT_DIR$/Concrete/EFDbContext.cs" />
-        <option value="$PROJECT_DIR$/Web.config" />
-        <option value="$PROJECT_DIR$/Areas/CMS/Controllers/HomeController.cs" />
-        <option value="$PROJECT_DIR$/SourceAdmin/animations.html" />
-        <option value="$PROJECT_DIR$/SourceAdmin/alerts.html" />
-        <option value="$PROJECT_DIR$/SourceAdmin/media.html" />
-        <option value="$PROJECT_DIR$/SourceAdmin/form-components.html" />
-        <option value="$PROJECT_DIR$/SourceAdmin/list-view.html" />
         <option value="$PROJECT_DIR$/SourceAdmin/profile-photos.html" />
         <option value="$PROJECT_DIR$/SourceAdmin/profile-connections.html" />
         <option value="$PROJECT_DIR$/SourceAdmin/photos.html" />
@@ -364,12 +349,21 @@
         <option value="$PROJECT_DIR$/Areas/CMS/Views/Shared/_Layout.cshtml" />
         <option value="$PROJECT_DIR$/Areas/Catalog/Controllers/ArticleController.cs" />
         <option value="$PROJECT_DIR$/Areas/CMS/Controllers/ArticleController.cs" />
-        <option value="$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs" />
         <option value="$PROJECT_DIR$/Areas/CMS/Controllers/ProductController.cs" />
         <option value="$PROJECT_DIR$/Areas/CMS/Controllers/HomeCmsController.cs" />
         <option value="$PROJECT_DIR$/Areas/CMS/Views/Shared/Aside.cshtml" />
         <option value="$PROJECT_DIR$/Areas/CMS/CMSAreaRegistration.cs" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/App_Start/BundleConfig.cs" />
+        <option value="$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml" />
+        <option value="$PROJECT_DIR$/Concrete/EfDbContext.cs" />
+        <option value="$PROJECT_DIR$/Web.config" />
+        <option value="$PROJECT_DIR$/Concrete/EFDbContext.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/Concrete/EFDbContext.cs" />
+        <option value="$PROJECT_DIR$/Repositories/ArticleRepository.cs" />
+        <option value="$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs" />
+        <option value="$PROJECT_DIR$/Infrastructure/NinjectDependencyResolver.cs" />
+        <option value="$PROJECT_DIR$/App_Start/NinjectWebCommon.cs" />
       </list>
     </option>
   </component>
@@ -492,6 +486,12 @@
               <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
               <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="App_Start" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Areas" type="24d0babc:SolutionExplorerModelNode" />
             </path>
             <path>
@@ -525,6 +525,24 @@
               <item name="CMS" type="24d0babc:SolutionExplorerModelNode" />
               <item name="Views" type="24d0babc:SolutionExplorerModelNode" />
               <item name="ArticleCms" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Entities" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Infrastructure" type="24d0babc:SolutionExplorerModelNode" />
+            </path>
+            <path>
+              <item name="Project" type="784c90a0:SolutionExplorerRootNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Catalog" type="24d0babc:SolutionExplorerModelNode" />
+              <item name="Repositories" type="24d0babc:SolutionExplorerModelNode" />
             </path>
           </expand>
           <select />
@@ -589,12 +607,12 @@
       <workItem from="1583690537679" duration="2832000" />
       <workItem from="1588092349515" duration="2921000" />
       <workItem from="1588670586936" duration="10318000" />
-      <workItem from="1589296641653" duration="11263000" />
+      <workItem from="1589296641653" duration="19836000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27334000" />
+    <option name="totallyTimeSpent" value="35907000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -608,7 +626,7 @@
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1874" height="1096" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16538037" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16538037" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Capture Tool" order="3" />
@@ -620,16 +638,16 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32917964" />
+      <window_info active="true" anchor="bottom" id="NuGet" order="7" visible="true" weight="0.35825545" />
       <window_info anchor="bottom" id="Performance Profiler" order="8" weight="0.32917964" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32917964" />
       <window_info anchor="bottom" id="Database Changes" order="11" show_stripe_button="false" />
       <window_info anchor="bottom" id="Unit Tests" order="12" weight="0.32917964" />
       <window_info anchor="bottom" id="REST Client" order="13" />
-      <window_info anchor="bottom" id="Terminal" order="14" visible="true" weight="0.26583594" />
+      <window_info anchor="bottom" id="Terminal" order="14" weight="0.26583594" />
       <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
-      <window_info anchor="bottom" id="Build" order="16" weight="0.25233644" />
+      <window_info anchor="bottom" id="Build" order="16" weight="0.2699896" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -644,6 +662,32 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -728,25 +772,6 @@
             <marker date="1588685403853" expanded="true" signature="66:236" ph="{...}" />
             <marker date="1588685403853" expanded="true" signature="116:234" ph="{...}" />
             <marker date="1588685403853" expanded="true" signature="131:228" ph="/* GET ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Catalog.csproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Concrete/EfDbContext.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="48">
-          <caret line="5" column="28" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="28" />
-          <folding>
-            <marker date="1588689895963" expanded="false" signature="6:49" ph="..." />
-            <marker date="1588689895963" expanded="true" signature="77:287" ph="{...}" />
-            <marker date="1588689895963" expanded="true" signature="120:285" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -868,24 +893,6 @@
             <marker date="1588681566938" expanded="true" signature="11273:11559" ph="&lt;ul.../&gt;" />
             <marker date="1588681566938" expanded="true" signature="11603:11744" ph="&lt;div.../&gt;" />
             <marker date="1588681566938" expanded="true" signature="11824:13421" ph="@*...*@" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Web.config">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="14" column="50" selection-start-line="14" selection-start-column="50" selection-end-line="14" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Entities/Article.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="7" column="47" selection-start-line="4" selection-start-column="7" selection-end-line="7" selection-end-column="47" />
-          <folding>
-            <marker date="1588689487287" expanded="true" signature="26:232" ph="{...}" />
-            <marker date="1588689487287" expanded="true" signature="53:230" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1347,19 +1354,6 @@
     <entry file="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Edit.cshtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
-          <folding>
-            <marker date="1589387208044" expanded="true" signature="62:303" ph="{...}" />
-            <marker date="1589387208044" expanded="true" signature="115:301" ph="{...}" />
-            <marker date="1589387208044" expanded="true" signature="157:204" ph="{...}" />
-            <marker date="1589387208044" expanded="true" signature="248:295" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Areas/CMS/Views/ProductCms/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -1449,38 +1443,162 @@
     <entry file="file://$PROJECT_DIR$/Views/Shared/Error.cshtml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/App_Start/BundleConfig.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="13" column="12" selection-start-line="13" selection-start-column="12" selection-end-line="13" selection-end-column="12" />
+          <folding>
+            <marker date="1589388880626" expanded="true" signature="49:1305" ph="{...}" />
+            <marker date="1589388880626" expanded="true" signature="81:1303" ph="{...}" />
+            <marker date="1589388880626" expanded="true" signature="254:1297" ph="{...}" />
+            <marker date="1589388880626" expanded="true" signature="290:350" ph="/* ... */" />
+            <marker date="1589388880626" expanded="true" signature="364:1287" ph="/* bundles.Add(new ScriptBundle(&quot;~/bundles/jquery&quot;).Include( ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Entities/Article.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="96">
+          <caret line="7" column="47" selection-start-line="7" selection-start-column="47" selection-end-line="7" selection-end-column="47" />
+          <folding>
+            <marker date="1588689487287" expanded="true" signature="26:232" ph="{...}" />
+            <marker date="1588689487287" expanded="true" signature="53:230" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Areas/CMS/Views/ArticleCms/Index.cshtml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="128">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="352">
+          <caret line="22" column="40" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
           <folding>
-            <marker date="1589302096554" expanded="true" signature="0:3856" ph="&lt;div.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="25:221" ph="&lt;div.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="58:128" ph="&lt;div.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="235:3847" ph="&lt;table.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="320:703" ph="&lt;thead.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="342:684" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="714:3832" ph="&lt;tbody.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="736:879" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="894:1037" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="1052:1195" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="1210:1353" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="1368:1506" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="1521:1659" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="1674:1812" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="1827:1965" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="1980:2119" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="2134:2273" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="2288:2427" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="2442:2581" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="2596:2734" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="2749:2887" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="2902:3040" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="3055:3193" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="3208:3348" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="3363:3503" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="3518:3658" ph="&lt;tr.../&gt;" />
-            <marker date="1589302096554" expanded="true" signature="3673:3813" ph="&lt;tr.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="46:817" ph="&lt;div.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="71:267" ph="&lt;div.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="104:174" ph="&lt;div.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="281:808" ph="&lt;table.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="366:557" ph="&lt;thead.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="388:538" ph="&lt;tr.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="568:793" ph="&lt;tbody.../&gt;" />
+            <marker date="1589472695495" expanded="true" signature="588:774" ph="@..." />
+            <marker date="1589472695495" expanded="true" signature="619:774" ph="{...}" />
+            <marker date="1589472695495" expanded="true" signature="650:760" ph="&lt;tr.../&gt;" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web.Debug.config">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Catalog.csproj">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" column="39" selection-start-line="17" selection-start-column="39" selection-end-line="17" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web.config">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Global.asax">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infrastructure/Concrete/EFDbContext.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <marker date="1589474924178" expanded="false" signature="6:49" ph="..." />
+            <marker date="1589474924178" expanded="true" signature="92:302" ph="{...}" />
+            <marker date="1589474924178" expanded="true" signature="135:300" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CC73190B-AB9D-435C-8315-10FF295C572A/0a/a6464c47/IDependencyResolver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repositories/IArticleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="48">
+          <caret line="5" column="21" selection-start-line="5" selection-start-column="21" selection-end-line="5" selection-end-column="21" />
+          <folding>
+            <marker date="1589475307721" expanded="false" signature="6:57" ph="..." />
+            <marker date="1589475307721" expanded="true" signature="89:192" ph="{...}" />
+            <marker date="1589475307721" expanded="true" signature="131:190" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Repositories/ArticleRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
+          <folding>
+            <marker date="1589475307767" expanded="true" signature="6:33" ph="..." />
+            <marker date="1589475307767" expanded="true" signature="128:369" ph="{...}" />
+            <marker date="1589475307767" expanded="true" signature="186:367" ph="{...}" />
+            <marker date="1589475307767" expanded="true" signature="295:361" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Areas/CMS/Controllers/ArticleCmsController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding>
+            <marker date="1589475986768" expanded="true" signature="6:68" ph="..." />
+            <marker date="1589475986768" expanded="true" signature="109:564" ph="{...}" />
+            <marker date="1589475986768" expanded="true" signature="162:562" ph="{...}" />
+            <marker date="1589475986768" expanded="true" signature="290:354" ph="{...}" />
+            <marker date="1589475986768" expanded="true" signature="399:465" ph="{...}" />
+            <marker date="1589475986768" expanded="true" signature="509:556" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Infrastructure/NinjectDependencyResolver.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="48" selection-start-line="48" selection-end-line="48" />
+          <folding>
+            <marker date="1589477295450" expanded="true" signature="6:112" ph="..." />
+            <marker date="1589477295450" expanded="true" signature="146:1305" ph="{...}" />
+            <marker date="1589477295450" expanded="true" signature="213:1303" ph="{...}" />
+            <marker date="1589477295450" expanded="true" signature="318:399" ph="{...}" />
+            <marker date="1589477295450" expanded="true" signature="451:518" ph="{...}" />
+            <marker date="1589477295450" expanded="true" signature="584:651" ph="{...}" />
+            <marker date="1589477295450" expanded="true" signature="687:1297" ph="{...}" />
+            <marker date="1589477295450" expanded="true" signature="816:1285" ph="/* EmailSettings emailSettings = new EmailSettings() ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/App_Start/NinjectWebCommon.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="1" selection-start-line="13" selection-start-column="1" selection-end-line="13" selection-end-column="1" />
+          <folding>
+            <marker date="1589477291582" expanded="true" signature="6:207" ph="..." />
+            <marker date="1589477291582" expanded="true" signature="411:1487" ph="{...}" />
+            <marker date="1589477291582" expanded="true" signature="454:1485" ph="{...}" />
+            <marker date="1589477291582" expanded="true" signature="580:809" ph="{...}" />
+            <marker date="1589477291582" expanded="true" signature="848:905" ph="{...}" />
+            <marker date="1589477291582" expanded="true" signature="956:1270" ph="{...}" />
+            <marker date="1589477291582" expanded="true" signature="1331:1479" ph="{...}" />
           </folding>
         </state>
       </provider>
