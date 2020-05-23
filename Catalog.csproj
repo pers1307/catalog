@@ -180,7 +180,6 @@
     <Content Include="Areas\CMS\Views\ArticleCms\Delete.cshtml" />
     <Content Include="Areas\CMS\Views\ArticleCms\Edit.cshtml" />
     <Content Include="Areas\CMS\Views\ArticleCms\Index.cshtml" />
-    <Content Include="Areas\CMS\Views\ArticleCms\New.cshtml" />
     <Content Include="Areas\CMS\Views\HomeCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\ProductCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Aside.cshtml" />

@@ -22,17 +22,9 @@ namespace Catalog.Areas.CMS.Controllers
         }
         
         public ActionResult New()
-        {
-            IEnumerable<Article> articles = new List<Article>
-            {
-                new Article { Id = 0, Name = "Без категории" },
-                new Article { Id = 1, Name = "Apple" },
-                new Article { Id = 2, Name = "Samsung" },
-                new Article { Id = 3, Name = "Google" }
-            };
-            ViewBag.articles = new SelectList(articles, "Id", "Name");
-            
-            return View(new ArticleForm());
+        {            
+            SetArticlesForSelectInViewBag();
+            return View("Edit", new ArticleForm());
         }
         
         [HttpPost]
@@ -40,34 +32,60 @@ namespace Catalog.Areas.CMS.Controllers
         {
             if (ModelState.IsValid)
             {
-                var r = 0;
-
-                // Save
-                /**
-                * todo: тут редирект должен происходить уже на редактирование
-                */
+                var saveArticle = repository.Insert(form.GetAsArticle());
+                
+                return RedirectToRoute(new
+                {
+                    action = "Edit",
+                    id = saveArticle.Id.ToString()
+                });
             } 
             
-            IEnumerable<Article> articles = new List<Article>
-            {
-                new Article { Id = 0, Name = "Без категории" },
-                new Article { Id = 1, Name = "Apple" },
-                new Article { Id = 2, Name = "Samsung" },
-                new Article { Id = 3, Name = "Google" }
-            };
-            ViewBag.articles = new SelectList(articles, "Id", "Name");
-            
-            return View(new ArticleForm());
+            SetArticlesForSelectInViewBag();
+            return View("Edit", new ArticleForm());
         }
         
         public ActionResult Edit(int id)
         {
-            return View();
+            var article = repository.FindById(id);
+
+            if (article == null)
+            {
+                // todo: 404
+            }
+
+            SetArticlesForSelectInViewBag();
+            return View(new ArticleForm(article));
+        }
+        
+        [HttpPost]
+        public ActionResult Edit(int id, ArticleForm form)
+        {
+            if (ModelState.IsValid)
+            {
+                var article = form.GetAsArticle();
+                article.Id = id;
+                repository.Update(article);
+            }
+            
+            SetArticlesForSelectInViewBag();
+            return View("Edit", form);
         }
         
         public ActionResult Delete(int id)
         {
-            return View();
+            repository.RemoveById(id);
+            
+            return RedirectToRoute(new
+            {
+                controller = "ArticleCms",
+                action = "Index"
+            });
+        }
+
+        private void SetArticlesForSelectInViewBag()
+        {
+            ViewBag.articles = new SelectList(repository.GetForSelect(), "Id", "Name");
         }
     }
 }
