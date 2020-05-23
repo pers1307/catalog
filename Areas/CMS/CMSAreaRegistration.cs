@@ -33,6 +33,33 @@ namespace Catalog.Areas.CMS
                 }
             );
             context.MapRoute(
+                "CMS_Article_New",
+                "cms/article/new",
+                new
+                {
+                    action = "New", 
+                    controller="ArticleCms"
+                }
+            );
+            context.MapRoute(
+                "CMS_Article_Edit",
+                "cms/article/{id}",
+                new
+                {
+                    action = "Edit", 
+                    controller="ArticleCms"
+                }
+            );
+            context.MapRoute(
+                "CMS_Article_Delete",
+                "cms/article/delete/{id}",
+                new
+                {
+                    action = "Delete", 
+                    controller="ArticleCms"
+                }
+            );
+            context.MapRoute(
                 "CMS_Product",
                 "cms/product",
                 new

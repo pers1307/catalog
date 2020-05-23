@@ -215,7 +215,7 @@ $(document).ready(function(){
                 focus: true
             });
             $('.hec-save').show();
-        })
+        });
 	
         //Save
         $('body').on('click', '.hec-save', function(){

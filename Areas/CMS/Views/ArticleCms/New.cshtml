@@ -1,0 +1,43 @@
+@using Catalog.Areas.CMS.Helpers
+
+@model Catalog.Areas.CMS.Forms.ArticleForm
+
+@{
+    ViewBag.Title = "";
+}
+
+<div class="tile">
+    <div class="t-header">
+        <div class="th-title">
+            Добавление новой категории 
+        </div>
+    </div>
+
+    <div class="t-body tb-padding">
+        @using (Html.BeginForm()) 
+        {
+            @Html.ValidationSummary(true)
+            <div class="row">
+                <div class="col-sm-3 m-b-25">
+                    @Html.CustomLabel("Название категории")
+                    @Html.EditorFor(f => f.Name, new {htmlAttributes = new {@class = "form-control"}})
+                    @Html.ValidationMessageFor(f => f.Name)
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3 m-b-25">
+                    @Html.CustomLabel("Родительская категория")
+                    @Html.DropDownListFor(f => f.Parent, ViewBag.articles as IEnumerable<SelectListItem>, new { @class = "selectpicker" })
+                    @Html.ValidationMessageFor(f => f.Parent)
+                </div>
+            </div>
+            <div class="input-group">
+                @Html.CustomLabel("Описание")
+                @Html.EditorFor(f => f.Description, new {htmlAttributes = new {@class = "html-editor"}})                
+                @Html.ValidationMessageFor(f => f.Description)
+            </div>
+            
+            <input type="submit" value="Сохранить" />
+        }
+    </div>
+</div>

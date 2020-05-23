@@ -1,29 +1,38 @@
 @model IEnumerable<Catalog.Entities.Article>
 
 <div class="tile">
-      <div class="t-header">
-          <div class="th-title">
-              Список категорий
-          </div>
-          <br/>    
-          <button class="btn btn-primary">Добавить</button>
+  <div class="t-header">
+      <div class="th-title">
+          Список категорий
       </div>
-      
-      <table id="data-table-command" class="table table-bordered table-vmiddle">
-          <thead>
-              <tr>
-                  <th data-column-id="id" data-type="numeric">Id</th>
-                  <th data-column-id="sender">Name</th>
-              </tr>
-          </thead>
-          <tbody>
-            @foreach (var article in Model)
-            {
-                <tr>
-                    <td>@article.Id</td>
-                    <td>@article.Name</td>
-                </tr>
-            }
-          </tbody>
-      </table>
+      <br/>    
+      <a class="btn btn-primary" href="@Url.Action("New", "ArticleCms")">Добавить</a>
   </div>
+  
+  <table id="data-table-command" class="table table-bordered table-vmiddle">
+      <thead>
+          <tr>
+              <th data-column-id="id" data-type="numeric">Id</th>
+              <th data-column-id="sender">Name</th>
+              <th data-column-id="sender">Commands</th>
+          </tr>
+      </thead>
+      <tbody>
+        @foreach (var article in Model)
+        {
+            <tr>
+                <td>@article.Id</td>
+                <td>@article.Name</td>
+                <td>
+                    <a href="@Url.Action("Edit", "ArticleCms", new { id=article.Id })" class="btn btn-icon btn-info">
+                        <span class="zmdi zmdi-edit"></span>
+                    </a>
+                    <a href="@Url.Action("Delete", "ArticleCms", new { id=article.Id })" class="btn btn-icon btn-info">
+                        <span class="zmdi zmdi-delete"></span>
+                    </a>
+                </td>
+            </tr>
+        }
+      </tbody>
+  </table>
+</div>

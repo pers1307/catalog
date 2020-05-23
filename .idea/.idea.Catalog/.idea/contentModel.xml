@@ -55,6 +55,12 @@
             <e p="HomeCmsController.cs" t="Include" />
             <e p="ProductCmsController.cs" t="Include" />
           </e>
+          <e p="Forms" t="Include">
+            <e p="ArticleForm.cs" t="Include" />
+          </e>
+          <e p="Helpers" t="Include">
+            <e p="LabelExtensions.cs" t="Include" />
+          </e>
           <e p="static" t="Include">
             <e p="Css" t="Include">
               <e p="Vendor" t="Include" />
@@ -70,8 +76,10 @@
           <e p="Views" t="Include">
             <e p="_ViewStart.cshtml" t="Include" />
             <e p="ArticleCms" t="Include">
+              <e p="Delete.cshtml" t="Include" />
               <e p="Edit.cshtml" t="Include" />
               <e p="Index.cshtml" t="Include" />
+              <e p="New.cshtml" t="Include" />
             </e>
             <e p="HomeCms" t="Include">
               <e p="Index.cshtml" t="Include" />

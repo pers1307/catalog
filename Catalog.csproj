@@ -146,6 +146,8 @@
     <Compile Include="Areas\CMS\Controllers\ArticleCmsController.cs" />
     <Compile Include="Areas\CMS\Controllers\HomeCmsController.cs" />
     <Compile Include="Areas\CMS\Controllers\ProductCmsController.cs" />
+    <Compile Include="Areas\CMS\Forms\ArticleForm.cs" />
+    <Compile Include="Areas\CMS\Helpers\LabelExtensions.cs" />
     <Compile Include="Entities\Article.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\User.cs" />
@@ -175,8 +177,10 @@
     <Content Include="Areas\Catalog\Views\_ViewStart.cshtml" />
     <Content Include="Areas\CMS\Static\Image\logo.png" />
     <Content Include="Areas\CMS\Static\Image\profile-pic.jpg" />
+    <Content Include="Areas\CMS\Views\ArticleCms\Delete.cshtml" />
     <Content Include="Areas\CMS\Views\ArticleCms\Edit.cshtml" />
     <Content Include="Areas\CMS\Views\ArticleCms\Index.cshtml" />
+    <Content Include="Areas\CMS\Views\ArticleCms\New.cshtml" />
     <Content Include="Areas\CMS\Views\HomeCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\ProductCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Aside.cshtml" />
