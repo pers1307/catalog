@@ -59,6 +59,7 @@
           </e>
           <e p="Forms" t="Include">
             <e p="ArticleForm.cs" t="Include" />
+            <e p="ProductForm.cs" t="Include" />
           </e>
           <e p="Helpers" t="Include">
             <e p="LabelExtensions.cs" t="Include" />
@@ -78,7 +79,6 @@
           <e p="Views" t="Include">
             <e p="_ViewStart.cshtml" t="Include" />
             <e p="ArticleCms" t="Include">
-              <e p="Delete.cshtml" t="Include" />
               <e p="Edit.cshtml" t="Include" />
               <e p="Index.cshtml" t="Include" />
             </e>
@@ -86,6 +86,7 @@
               <e p="Index.cshtml" t="Include" />
             </e>
             <e p="ProductCms" t="Include">
+              <e p="Edit.cshtml" t="Include" />
               <e p="Index.cshtml" t="Include" />
             </e>
             <e p="Shared" t="Include">
@@ -124,6 +125,8 @@
       <e p="Repositories" t="Include">
         <e p="ArticleRepository.cs" t="Include" />
         <e p="IArticleRepository.cs" t="Include" />
+        <e p="IProductRepository.cs" t="Include" />
+        <e p="ProductRepository.cs" t="Include" />
       </e>
       <e p="source" t="Include" />
       <e p="SourceAdmin" t="Include" />

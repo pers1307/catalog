@@ -1,0 +1,44 @@
+@using Catalog.Areas.CMS.Helpers
+
+@model Catalog.Areas.CMS.Forms.ProductForm
+
+@{
+    ViewBag.Title = "";
+}
+
+<div class="tile">
+     <div class="t-header">
+         <div class="th-title">
+             Добавление нового продукта
+         </div>
+     </div>
+
+     <div class="t-body tb-padding">
+         @using (Html.BeginForm())
+         {
+             @Html.ValidationSummary(true)
+             <div class="row">
+                 <div class="col-sm-3 m-b-25">
+                     @Html.CustomLabel("Название продукта")
+                     @Html.EditorFor(f => f.Name, new {htmlAttributes = new {@class = "form-control"}})
+                     @Html.ValidationMessageFor(f => f.Name)
+                 </div>
+             </div>
+             <div class="input-group">
+                 @Html.CustomLabel("Описание")
+                 @Html.EditorFor(f => f.Description, new {htmlAttributes = new {@class = "html-editor"}})
+                 @Html.ValidationMessageFor(f => f.Description)
+             </div>
+             <div class="row">
+                 <div class="col-sm-3 m-b-25">
+                     @Html.CustomLabel("Цена")
+                     @Html.EditorFor(f => f.Price, new {htmlAttributes = new {@class = "form-control"}})
+                     @Html.ValidationMessageFor(f => f.Price)
+                 </div>
+             </div>
+
+             <input type="submit" value="Сохранить" />
+             <a class="btn btn-primary pull-right" href="@Url.Action("Index", "ProductCms")">Вернуться в список</a>
+         }
+     </div>
+</div>

@@ -32,6 +32,10 @@ namespace Catalog.Infrastructure
                 .Bind<IArticleRepository>()
                 .To<ArticleRepository>();
             
+            kernel
+                .Bind<IProductRepository>()
+                .To<ProductRepository>();
+            
 //                EmailSettings emailSettings = new EmailSettings()
 //                {
 //                    MailToAddress = ""

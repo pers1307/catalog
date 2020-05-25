@@ -147,6 +147,7 @@
     <Compile Include="Areas\CMS\Controllers\HomeCmsController.cs" />
     <Compile Include="Areas\CMS\Controllers\ProductCmsController.cs" />
     <Compile Include="Areas\CMS\Forms\ArticleForm.cs" />
+    <Compile Include="Areas\CMS\Forms\ProductForm.cs" />
     <Compile Include="Areas\CMS\Helpers\LabelExtensions.cs" />
     <Compile Include="Entities\Article.cs" />
     <Compile Include="Entities\Product.cs" />
@@ -159,6 +160,8 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Repositories\ArticleRepository.cs" />
     <Compile Include="Repositories\IArticleRepository.cs" />
+    <Compile Include="Repositories\IProductRepository.cs" />
+    <Compile Include="Repositories\ProductRepository.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include=".gitignore" />
@@ -177,10 +180,10 @@
     <Content Include="Areas\Catalog\Views\_ViewStart.cshtml" />
     <Content Include="Areas\CMS\Static\Image\logo.png" />
     <Content Include="Areas\CMS\Static\Image\profile-pic.jpg" />
-    <Content Include="Areas\CMS\Views\ArticleCms\Delete.cshtml" />
     <Content Include="Areas\CMS\Views\ArticleCms\Edit.cshtml" />
     <Content Include="Areas\CMS\Views\ArticleCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\HomeCms\Index.cshtml" />
+    <Content Include="Areas\CMS\Views\ProductCms\Edit.cshtml" />
     <Content Include="Areas\CMS\Views\ProductCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Aside.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Footer.cshtml" />

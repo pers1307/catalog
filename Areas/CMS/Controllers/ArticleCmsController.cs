@@ -42,7 +42,7 @@ namespace Catalog.Areas.CMS.Controllers
             } 
             
             SetArticlesForSelectInViewBag();
-            return View("Edit", new ArticleForm());
+            return View("Edit", form);
         }
         
         public ActionResult Edit(int id)
