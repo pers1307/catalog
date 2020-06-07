@@ -51,7 +51,7 @@ namespace Catalog.Areas.CMS.Controllers
 
             if (article == null)
             {
-                // todo: 404
+                return HttpNotFound();
             }
 
             SetArticlesForSelectInViewBag();

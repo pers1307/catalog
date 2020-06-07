@@ -1,5 +1,9 @@
-﻿<!DOCTYPE html>
-    <!--[if IE 9 ]><html class="ie9"><![endif]-->
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie9"><![endif]-->
     <head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
         <meta name="format-detection" content="telephone=no">
@@ -8,27 +12,27 @@
         <meta name="description" content="SuperFlat Responsive Admin Template">
         <meta name="keywords" content="SuperFlat Admin, Admin, Template, Bootstrap">
 
-        <title>SuperFlat Responsive Admin Template</title>
+        <title>Not Found</title>
         
         @Styles.Render("~/Areas/CMS/Static/Css/Vendor/animate.css/animate.min.css")
         @Styles.Render("~/Areas/CMS/Static/Css/Vendor/material-design-iconic-font/dist/css/material-design-iconic-font.min.css")
-        @Styles.Render("~/Areas/CMS/Static/Css/Vendor/fullcalendar/dist/fullcalendar.min.css")
-        @Styles.Render("~/Areas/CMS/Static/Css/Vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.min.css")
-        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/bootstrap-select/dist/css/bootstrap-select.css")
-        @Styles.Render("~/Areas/CMS/Static/Js/Vendor/summernote/dist/summernote.css")
         @Styles.Render("~/Areas/CMS/Static/Css/app.css")
     </head>
 
-    <body>
-        @Html.Partial("Header")
-        @Html.Partial("Aside")
-    
-        <section id="content">
-            @RenderBody()
-        </section>
-        
-        
-        @Html.Partial("Footer")
+    <body class="bg-brand">   
+        <div class="four-zero">
+            <h2>404</h2>
+            <small>Page not found</small>
+            
+            <footer>
+                @{
+                    if (ViewBag.referrer != null) {
+                        <a href="@ViewBag.referrer"><i class="zmdi zmdi-arrow-back"></i></a>
+                    }
+                }
+                <a href="@Url.Action("Index", "HomeCms")"><i class="zmdi zmdi-home"></i></a>
+            </footer>
+        </div>
         
         <!-- Older IE Warning Message -->
         <!--[if lt IE 9]>
@@ -72,35 +76,5 @@
                 <p>Sorry for the inconvenience!</p>
             </div>   
         <![endif]-->
-        
-        <!-- Javascript Libraries -->
-    
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/jquery/dist/jquery.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/bootstrap/dist/js/bootstrap.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/flot/jquery.flot.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/flot-orderBars/js/jquery.flot.orderBars.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/flot.curvedlines/curvedLines.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/flot-orderBars/js/jquery.flot.orderBars.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/sparklines/jquery.sparkline.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/jquery.easy-pie-chart/dist/jquery.easypiechart.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/bootstrap-growl/bootstrap-growl.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/malihu-custom-scrollbar-plugin/jquery.mCustomScrollbar.concat.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/moment/min/moment.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/fullcalendar/dist/fullcalendar.min.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/bootstrap-select/dist/js/bootstrap-select.js")
-    
-        <!-- Charts - Please read the read-me.txt inside the js folder-->
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/flot-charts/curved-line-chart.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/flot-charts/bar-chart.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/charts.js")
-        
-        <!-- Placeholder for IE9 -->
-        <!--[if IE 9 ]>
-            @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/jquery-placeholder/jquery.placeholder.min.js")
-        <![endif]-->
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/summernote/dist/summernote.min.js")
-    
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/functions.js")
-        @Scripts.Render("~/Areas/CMS/Static/Js/Vendor/demo.js")
     </body>
 </html>

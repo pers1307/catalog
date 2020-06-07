@@ -145,6 +145,7 @@
     <Compile Include="Areas\CMS\CMSAreaRegistration.cs" />
     <Compile Include="Areas\CMS\Controllers\ArticleCmsController.cs" />
     <Compile Include="Areas\CMS\Controllers\HomeCmsController.cs" />
+    <Compile Include="Areas\CMS\Controllers\NotFoundCmsController.cs" />
     <Compile Include="Areas\CMS\Controllers\ProductCmsController.cs" />
     <Compile Include="Areas\CMS\Forms\ArticleForm.cs" />
     <Compile Include="Areas\CMS\Forms\ProductForm.cs" />
@@ -178,11 +179,17 @@
     <Content Include="Areas\Catalog\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\Catalog\Views\Shared\Footer.cshtml" />
     <Content Include="Areas\Catalog\Views\_ViewStart.cshtml" />
+    <Content Include="Areas\CMS\Static\Image\browsers\chrome.png" />
+    <Content Include="Areas\CMS\Static\Image\browsers\firefox.png" />
+    <Content Include="Areas\CMS\Static\Image\browsers\ie.png" />
+    <Content Include="Areas\CMS\Static\Image\browsers\opera.png" />
+    <Content Include="Areas\CMS\Static\Image\browsers\safari.png" />
     <Content Include="Areas\CMS\Static\Image\logo.png" />
     <Content Include="Areas\CMS\Static\Image\profile-pic.jpg" />
     <Content Include="Areas\CMS\Views\ArticleCms\Edit.cshtml" />
     <Content Include="Areas\CMS\Views\ArticleCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\HomeCms\Index.cshtml" />
+    <Content Include="Areas\CMS\Views\NotFoundCms\NotFound.cshtml" />
     <Content Include="Areas\CMS\Views\ProductCms\Edit.cshtml" />
     <Content Include="Areas\CMS\Views\ProductCms\Index.cshtml" />
     <Content Include="Areas\CMS\Views\Shared\Aside.cshtml" />

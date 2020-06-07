@@ -55,6 +55,7 @@
           <e p="Controllers" t="Include">
             <e p="ArticleCmsController.cs" t="Include" />
             <e p="HomeCmsController.cs" t="Include" />
+            <e p="NotFoundCmsController.cs" t="Include" />
             <e p="ProductCmsController.cs" t="Include" />
           </e>
           <e p="Forms" t="Include">
@@ -69,6 +70,13 @@
               <e p="Vendor" t="Include" />
             </e>
             <e p="Image" t="Include">
+              <e p="browsers" t="Include">
+                <e p="chrome.png" t="Include" />
+                <e p="firefox.png" t="Include" />
+                <e p="ie.png" t="Include" />
+                <e p="opera.png" t="Include" />
+                <e p="safari.png" t="Include" />
+              </e>
               <e p="logo.png" t="Include" />
               <e p="profile-pic.jpg" t="Include" />
             </e>
@@ -84,6 +92,9 @@
             </e>
             <e p="HomeCms" t="Include">
               <e p="Index.cshtml" t="Include" />
+            </e>
+            <e p="NotFoundCms" t="Include">
+              <e p="NotFound.cshtml" t="Include" />
             </e>
             <e p="ProductCms" t="Include">
               <e p="Edit.cshtml" t="Include" />

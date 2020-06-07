@@ -47,7 +47,7 @@ namespace Catalog.Areas.CMS.Controllers
 
             if (product == null)
             {
-                // todo: 404
+                return HttpNotFound();
             }
 
             return View(new ProductForm(product));
