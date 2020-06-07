@@ -47,25 +47,28 @@ namespace Catalog.Repositories
                 .Find(id);
         }
         
-//        public Article Update(Article article)
-//        {
-//            var articleFormBase = FindById(article.Id);
-//
-//            articleFormBase.Name        = article.Name;
-//            articleFormBase.Parent      = article.Parent;
-//            articleFormBase.Description = article.Description;
-//
-//            context.SaveChanges();
-//
-//            return articleFormBase;
-//        }
-//
-//        public void RemoveById(int id)
-//        {
-//            var articleFormBase = FindById(id);
-//            
-//            context.Articles.Remove(articleFormBase);
-//            context.SaveChanges();
-//        }
+        public Product Update(Product product)
+        {
+            var productFormBase = FindById(product.Id);
+
+            productFormBase.Name        = product.Name;
+            productFormBase.Description = product.Description;
+            productFormBase.Price       = product.Price;    
+            productFormBase.ImageOne    = product.ImageOne;
+            productFormBase.ImageTwo    = product.ImageTwo;
+            productFormBase.ImageThree  = product.ImageThree;
+
+            context.SaveChanges();
+
+            return productFormBase;
+        }
+
+        public void RemoveById(int id)
+        {
+            var productFormBase = FindById(id);
+            
+            context.Products.Remove(productFormBase);
+            context.SaveChanges();
+        }
     }
 }

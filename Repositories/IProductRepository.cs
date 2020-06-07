@@ -8,5 +8,7 @@ namespace Catalog.Repositories
         IEnumerable<Product> Products { get; }
         Product Insert(Product product);
         Product FindById(int id);
+        Product Update(Product product);
+        void RemoveById(int id);
     }
 }

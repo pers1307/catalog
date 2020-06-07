@@ -53,34 +53,28 @@ namespace Catalog.Areas.CMS.Controllers
             return View(new ProductForm(product));
         }
         
-//        [HttpPost]
-//        public ActionResult Edit(int id, ArticleForm form)
-//        {
-//            if (ModelState.IsValid)
-//            {
-//                var article = form.GetAsArticle();
-//                article.Id = id;
-//                repository.Update(article);
-//            }
-//            
-//            SetArticlesForSelectInViewBag();
-//            return View("Edit", form);
-//        }
-//        
-//        public ActionResult Delete(int id)
-//        {
-//            repository.RemoveById(id);
-//            
-//            return RedirectToRoute(new
-//            {
-//                controller = "ArticleCms",
-//                action = "Index"
-//            });
-//        }
-//
-//        private void SetArticlesForSelectInViewBag()
-//        {
-//            ViewBag.articles = new SelectList(repository.GetForSelect(), "Id", "Name");
-//        }
+        [HttpPost]
+        public ActionResult Edit(int id, ProductForm form)
+        {
+            if (ModelState.IsValid)
+            {
+                var article = form.GetAsProduct();
+                article.Id = id;
+                repository.Update(article);
+            }
+            
+            return View("Edit", form);
+        }
+        
+        public ActionResult Delete(int id)
+        {
+            repository.RemoveById(id);
+            
+            return RedirectToRoute(new
+            {
+                controller = "ProductCms",
+                action = "Index"
+            });
+        }
     }
 }

@@ -39,7 +39,8 @@ namespace Catalog.Areas.CMS.Forms
             return new Product()
             {
                 Name = Name,
-                Description = Description
+                Description = Description,
+                Price = Price
             };
         }
     }
