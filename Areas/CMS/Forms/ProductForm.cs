@@ -1,4 +1,5 @@
 using System.ComponentModel.DataAnnotations;
+using System.Web;
 using System.Web.Mvc;
 using Catalog.Entities;
 
@@ -33,7 +34,16 @@ namespace Catalog.Areas.CMS.Forms
         [Display(Name ="Цена")]
         [Required(ErrorMessage = "Это поле является обязательным")]
         public decimal Price { get; set; }
-
+        
+        [DataType(DataType.Upload)]
+        public HttpPostedFileBase ImageOne { get; set; }
+        
+        [DataType(DataType.Upload)]
+        public HttpPostedFileBase ImageTwo { get; set; }
+        
+        [DataType(DataType.Upload)]
+        public HttpPostedFileBase ImageThree { get; set; }
+        
         public Product GetAsProduct()
         {
             return new Product()

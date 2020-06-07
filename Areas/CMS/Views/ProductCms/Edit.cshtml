@@ -14,7 +14,7 @@
      </div>
 
      <div class="t-body tb-padding">
-         @using (Html.BeginForm())
+         @using (Html.BeginForm("Edit", "ProductCms", FormMethod.Post, new {enctype="multipart/form-data"}))
          {
              @Html.ValidationSummary(true)
              <div class="row">
@@ -34,6 +34,27 @@
                      @Html.CustomLabel("Цена")
                      @Html.EditorFor(f => f.Price, new {htmlAttributes = new {@class = "form-control"}})
                      @Html.ValidationMessageFor(f => f.Price)
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm-3 m-b-25">
+                     @Html.CustomLabel("Картинка 1")
+                     @Html.TextBoxFor(f => f.ImageOne, new {htmlAttributes = new {@class = "form-control"}, type = "file"})
+                     @Html.ValidationMessageFor(f => f.ImageOne)
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm-3 m-b-25">
+                     @Html.CustomLabel("Картинка 2")
+                     @Html.TextBoxFor(f => f.ImageTwo, new {htmlAttributes = new {@class = "form-control"}, type = "file"})
+                     @Html.ValidationMessageFor(f => f.ImageTwo)
+                 </div>
+             </div>
+             <div class="row">
+                 <div class="col-sm-3 m-b-25">
+                     @Html.CustomLabel("Картинка 3")
+                     @Html.TextBoxFor(f => f.ImageThree, new {htmlAttributes = new {@class = "form-control"}, type = "file"})
+                     @Html.ValidationMessageFor(f => f.ImageThree)
                  </div>
              </div>
 

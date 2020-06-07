@@ -60,6 +60,15 @@ namespace Catalog.Areas.CMS.Controllers
             {
                 var article = form.GetAsProduct();
                 article.Id = id;
+
+                var t = form.ImageOne.FileName;
+                
+                string fileName = System.IO.Path.GetFileName(t);
+                // сохраняем файл в папку Files в проекте
+//                upload.SaveAs(Server.MapPath("~/Files/" + fileName));
+
+                form.ImageOne.SaveAs(Server.MapPath("~/Files/" + fileName));
+                
                 repository.Update(article);
             }
             

@@ -50,6 +50,10 @@
     <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
       <HintPath>packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
     </Reference>
+    <Reference Include="Kaliko.ImageLibrary, Version=3.0.2.0, Culture=neutral, PublicKeyToken=null">
+      <HintPath>packages\ImageLibrary.3.0.2\lib\net45\Kaliko.ImageLibrary.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
     <Reference Include="Microsoft.CSharp" />
     <Reference Include="Ninject, Version=3.2.0.0, Culture=neutral, PublicKeyToken=c7192dc5380945e7">
       <HintPath>packages\Ninject.3.2.0.0\lib\net45-full\Ninject.dll</HintPath>
@@ -150,6 +154,7 @@
     <Compile Include="Areas\CMS\Forms\ArticleForm.cs" />
     <Compile Include="Areas\CMS\Forms\ProductForm.cs" />
     <Compile Include="Areas\CMS\Helpers\LabelExtensions.cs" />
+    <Compile Include="Areas\CMS\Services\FileSaveService.cs" />
     <Compile Include="Entities\Article.cs" />
     <Compile Include="Entities\Product.cs" />
     <Compile Include="Entities\User.cs" />
@@ -198,6 +203,7 @@
     <Content Include="Areas\CMS\Views\Shared\_Layout.cshtml" />
     <Content Include="Areas\CMS\Views\_ViewStart.cshtml" />
     <Content Include="favicon.ico" />
+    <Content Include="Files\.gitignore" />
     <Content Include="Global.asax" />
     <Content Include="Areas\Catalog\Views\web.config" />
     <Content Include="Areas\CMS\Views\web.config" />

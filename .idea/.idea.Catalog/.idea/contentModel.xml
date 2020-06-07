@@ -65,6 +65,9 @@
           <e p="Helpers" t="Include">
             <e p="LabelExtensions.cs" t="Include" />
           </e>
+          <e p="Services" t="Include">
+            <e p="FileSaveService.cs" t="Include" />
+          </e>
           <e p="static" t="Include">
             <e p="Css" t="Include">
               <e p="Vendor" t="Include" />
@@ -119,6 +122,9 @@
         <e p="User.cs" t="Include" />
       </e>
       <e p="favicon.ico" t="Include" />
+      <e p="Files" t="Include">
+        <e p=".gitignore" t="Include" />
+      </e>
       <e p="Global.asax" t="Include" />
       <e p="Global.asax.cs" t="Include" />
       <e p="Infrastructure" t="Include">
