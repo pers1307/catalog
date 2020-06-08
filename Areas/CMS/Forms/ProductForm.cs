@@ -19,6 +19,9 @@ namespace Catalog.Areas.CMS.Forms
             Name = product.Name;
             Price = product.Price;
             Description = product.Description;
+            ImageOnePath = product.ImageOne;
+            ImageTwoPath = product.ImageTwo;
+            ImageTreePath = product.ImageThree;
         }
 
         [Display(Name ="Название продукта")]
@@ -38,19 +41,28 @@ namespace Catalog.Areas.CMS.Forms
         [DataType(DataType.Upload)]
         public HttpPostedFileBase ImageOne { get; set; }
         
+        public string ImageOnePath { get; set; }
+        
         [DataType(DataType.Upload)]
         public HttpPostedFileBase ImageTwo { get; set; }
         
+        public string ImageTwoPath { get; set; }
+        
         [DataType(DataType.Upload)]
         public HttpPostedFileBase ImageThree { get; set; }
+        
+        public string ImageTreePath { get; set; }
         
         public Product GetAsProduct()
         {
             return new Product()
             {
-                Name = Name,
+                Name        = Name,
                 Description = Description,
-                Price = Price
+                Price       = Price,
+                ImageOne    = ImageOnePath,
+                ImageTwo    = ImageTwoPath,
+                ImageThree  = ImageTreePath,
             };
         }
     }

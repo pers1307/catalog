@@ -1,5 +1,6 @@
 using System.Web.Mvc;
 using Catalog.Areas.CMS.Forms;
+using Catalog.Areas.CMS.Services;
 using Catalog.Repositories;
 
 namespace Catalog.Areas.CMS.Controllers
@@ -58,18 +59,11 @@ namespace Catalog.Areas.CMS.Controllers
         {
             if (ModelState.IsValid)
             {
-                var article = form.GetAsProduct();
-                article.Id = id;
-
-                var t = form.ImageOne.FileName;
-                
-                string fileName = System.IO.Path.GetFileName(t);
-                // сохраняем файл в папку Files в проекте
-//                upload.SaveAs(Server.MapPath("~/Files/" + fileName));
-
-                form.ImageOne.SaveAs(Server.MapPath("~/Files/" + fileName));
-                
-                repository.Update(article);
+                form = FileSaveService.SaveImagesFromProduct(form);
+                var product = form.GetAsProduct();
+                product.Id = id;
+                              
+                repository.Update(product);
             }
             
             return View("Edit", form);
