@@ -10,5 +10,6 @@ namespace Catalog.Repositories
         Product FindById(int id);
         Product Update(Product product);
         void RemoveById(int id);
+        IReadOnlyList<Product> GetRandProducts(int takeCount);
     }
 }

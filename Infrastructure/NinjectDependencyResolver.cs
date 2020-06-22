@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Web.Mvc;
+using Catalog.Areas.Catalog.Services;
 using Catalog.Repositories;
 using Ninject;
 
@@ -35,6 +36,10 @@ namespace Catalog.Infrastructure
             kernel
                 .Bind<IProductRepository>()
                 .To<ProductRepository>();
+            
+            kernel
+                .Bind<IHomeViewModelService>()
+                .To<HomeViewModelService>();
             
 //                EmailSettings emailSettings = new EmailSettings()
 //                {

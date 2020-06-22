@@ -146,6 +146,9 @@
     <Compile Include="Areas\Catalog\Controllers\ArticleController.cs" />
     <Compile Include="Areas\Catalog\Controllers\HomeController.cs" />
     <Compile Include="Areas\Catalog\Controllers\ProductController.cs" />
+    <Compile Include="Areas\Catalog\Services\HomeViewModelService.cs" />
+    <Compile Include="Areas\Catalog\Services\IHomeViewModelService.cs" />
+    <Compile Include="Areas\Catalog\ViewModels\HomeViewModel.cs" />
     <Compile Include="Areas\CMS\CMSAreaRegistration.cs" />
     <Compile Include="Areas\CMS\Controllers\ArticleCmsController.cs" />
     <Compile Include="Areas\CMS\Controllers\HomeCmsController.cs" />
@@ -174,6 +177,8 @@
     <Content Include="Areas\Catalog\Static\Css\bootstrap.css" />
     <Content Include="Areas\Catalog\Static\Css\megamenu.css" />
     <Content Include="Areas\Catalog\Static\Css\style.css" />
+    <Content Include="Areas\Catalog\Static\Image\fa.jpg" />
+    <Content Include="Areas\Catalog\Static\Image\logo.png" />
     <Content Include="Areas\Catalog\Static\Js\easing.js" />
     <Content Include="Areas\Catalog\Static\Js\jquery.min.js" />
     <Content Include="Areas\Catalog\Static\Js\megamenu.js" />

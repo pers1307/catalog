@@ -30,7 +30,6 @@ namespace Catalog.Areas.CMS.Services
             return form; 
         }
         
-        
         public static string SaveFile(HttpPostedFileBase image)
         {            
             var originFileName = System.IO.Path.GetFileName(image.FileName);

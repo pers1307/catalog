@@ -46,6 +46,14 @@ namespace Catalog.Repositories
                 .Products
                 .Find(id);
         }
+
+        public IReadOnlyList<Product> GetRandProducts(int takeCount)
+        {
+            return context
+                .Products
+                .Take(takeCount)
+                .ToList();
+        }
         
         public Product Update(Product product)
         {
